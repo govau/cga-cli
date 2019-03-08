@@ -7,6 +7,7 @@ RUN apk add --update \
     bash \
     ca-certificates \
     curl \
+    git \
     jq \
     openssh-client \
     openssl \

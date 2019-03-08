@@ -11,7 +11,6 @@ RUN apk add --update \
     jq \
     openssh-client \
     openssl \
-    openssl-dev \
     py3-pip \
     py3-setuptools \
     && \

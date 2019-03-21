@@ -11,6 +11,7 @@ RUN apk add --update \
     jq \
     openssh-client \
     openssl \
+    perl-utils \
     py3-pip \
     py3-setuptools \
     && \
@@ -19,7 +20,6 @@ RUN apk add --update \
     gcc \
     libffi-dev \
     openssl-dev \
-    perl-utils \
     python3-dev \
     && \
     pip3 install --upgrade --no-cache-dir \

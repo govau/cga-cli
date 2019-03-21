@@ -19,6 +19,7 @@ RUN apk add --update \
     gcc \
     libffi-dev \
     openssl-dev \
+    perl-utils \
     python3-dev \
     && \
     pip3 install --upgrade --no-cache-dir \

@@ -24,7 +24,7 @@ RUN apk add --update \
     && \
     pip3 install --upgrade --no-cache-dir \
     awscli==1.16.116 \
-    ansible==2.7.8 \
+    ansible==2.8.0 \
     yq==2.7.2 \
     && \
     apk del .build-deps \
@@ -47,7 +47,7 @@ RUN apk add --update \
     && \
     mv /tmp/helm/linux-amd64/helm /tmp/helm/linux-amd64/tiller /usr/local/bin \
     && \
-    curl -L -o /usr/bin/svcat https://download.svcat.sh/cli/v0.1.39/linux/amd64/svcat \
+    curl -L -o /usr/bin/svcat https://download.svcat.sh/cli/v0.2.0/linux/amd64/svcat \
     && \
     chmod +x /usr/bin/svcat
 

@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.12.3 as terraform
+FROM hashicorp/terraform:0.12.12 as terraform
 FROM alpine:3.9
 
 COPY --from=terraform /bin/terraform /usr/bin
